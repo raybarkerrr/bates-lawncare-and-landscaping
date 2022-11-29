@@ -1,0 +1,630 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #222;
+    background: #fff;
+  }
+
+  a {
+    color: #222;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    font-weight: bold;
+  }
+
+  .logo img{
+    max-width: auto;
+    max-height: 7em;
+    margin: 0%;
+    padding: 1rem;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    gap: 0.5em;
+    margin: 1em;
+    font-size: large;
+  }
+
+  .navbar-links li:hover {
+    background-color: #faf5e4;
+  }
+
+  .navbar-links ul a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+  }
+
+  /* Toggle Button */
+
+  .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .toggle-mode{
+    width: 1.8em;
+  }
+
+  .toggle-mode:hover {
+    cursor: pointer;
+}
+
+  /* Dark Mode */
+
+  body.dark-theme {
+    color: #eee;
+    background: #121212;
+  }
+
+  body.dark-theme a {
+    color: #eee;
+  }
+
+  section.fishing-2 {
+    background: #eee;
+  }
+
+  body.dark-theme > section.fishing-2{
+    background: #3A3B3C;
+  }
+
+
+
+
+  /* End of NavBar */
+
+  .hero-image-container{
+    background-image: url(Photos/Lawn3.jpeg);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .inner-container h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+    /* End of Hero Image Section */
+
+  .about-us{
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+  .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container h1{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif, 'Poppins', 'Work Sans';
+    font-weight: bold;
+  }
+
+  .about-container p{
+    margin-left: 1em;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    font-size: 30px;
+  }
+
+  .about-us-photo img{
+    height: auto;
+    max-width: 50%;
+    object-fit: cover;
+  }
+
+  /* End of About Us Section */
+
+  .information{
+    max-width: 100%;
+    min-height: 50vh;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+  }
+
+  .information-container{
+    display: flex;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+  .information-container h1{
+    font-size: 2em;
+    color: #42b883;
+  }
+
+  .information-container p{
+    font-size: 1.5em;
+  }
+
+  .information-left{
+    float: left;
+    width: 33%;
+  }
+
+  .information-middle{
+    float: left;
+    width: 33%;
+  }
+
+  .information-right{
+    float: right;
+    width: 33%;
+  }
+
+  .information-right li{
+    font-size: 20px;
+  }
+
+   /* End of Section Three */
+
+  /* Fishing Section 2 */
+
+  .fishing-2{
+    max-width: 100%;
+    min-height: 50vh;
+    background-color: #ddd;
+    padding-top: 40px;
+  }
+
+    .line{
+    width: 45%;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #42b883;
+    border-color: #42b883;
+  }
+
+  .container-2{
+    max-width: 80%;
+    display: block;
+    margin:auto;
+  }
+
+  .image-section-2{
+    max-width: 40%;
+    float: left;
+  }
+
+  .image-section-2 img{
+    max-width: 80%;
+    height: auto;
+    float: left;
+    margin-bottom: 2em;
+  }
+
+  .text-section-2{
+    float: right;
+    max-width: 55%;
+  }
+
+  .title{
+    font-size: 25px;
+    color: #42b883;
+  }
+
+  .text-section-2 p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* Example Photos Section */
+
+  .example-photos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .example-photos-container img{
+    width: 20rem;
+    height: 20rem;
+    padding: 5px;
+
+  }
+
+  /* Form  */
+
+    .contact-us{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .owner-number{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  textarea{
+    resize: none;
+  }
+
+  .form-button{
+    height: auto;
+    width: 3.3%;
+    border-radius: 50px;
+    background-color: #1DA1F2;
+    padding: 0.4em;
+    color: white;
+    border: none;
+  }
+
+  .form-section{
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+  }
+
+  .form-labels{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .input-field{
+    width: 30%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    border-width: 1px;
+    padding: 3px;
+  }
+
+  .input-field-message{
+    width: 30%;
+    height: 7rem;
+    border-radius: 7px;
+    border-width: 1px;
+    padding: 3px;
+  }
+
+  /* Footer Section */
+
+  .foot{
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    background-color: #142d4c;
+    color: white;
+    font-size: 14px;
+  }
+
+  .fut{
+    float: left;
+    width: 100%;
+    margin: 1em;
+  }
+
+  .fut-two{
+    float: right;
+    margin: 1em;
+  }
+
+
+  /* End of Form Section */
+
+  @media (max-width: 768px) { /* Media Query for Mobile Devices */
+    .toggle-button {
+        display: flex;
+        right: 16px;
+    }
+
+    .navbar-links {
+       display: none;
+       width: 70%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-mode{
+      width: 1.8em;
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      padding-top: 0.3rem;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5em;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    /* End of Navbar Section */
+
+    .hero-image-container{
+      background-attachment: scroll;
+    }
+
+    .image-container {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .image-title{
+        font-size: 1em;
+    }
+
+    /* End of Hero Image Section */
+
+    .about-us{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .about-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .about-container p{
+      margin-top: 1em;
+      font-size: 1.4rem;
+      margin-left: 2px;
+    }
+
+    .about-us-photo img{
+      max-width: 100%;
+    }
+
+
+
+    /* End of About Container */
+
+    .sect-three-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sect-three-container{
+        margin-right: 4em;
+    }
+
+    .sect-three-text h1 {
+        font-size: 30px;
+    }
+
+    .sect-three-text p {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      margin-right: 1em;
+  }
+
+    .sect-three-img img{
+        height: 15em;
+        margin-right: 1em;
+
+    }
+
+    .line{
+      width: 80%;
+      height: 5px;
+      margin-left: 2em;
+      border-radius: 50px;
+      background-color: red;
+    }
+
+    /* End of Section Three */
+
+
+    .row{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 35px;
+    }
+
+
+    .row img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Fishing 2 */
+
+
+
+
+  /* Last Section */
+
+  .container{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top:50px;
+  }
+
+  .content-section{
+    float:none;
+    width:100%;
+    display: block;
+    margin:auto;
+  }
+
+  .image-section{
+    float:none;
+    width:100%;
+  }
+
+  .image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+  }
+
+  .content-section .title{
+    text-align: center;
+    font-size: 19px;
+  }
+
+  /* laster */
+
+  .container-2{
+    margin:auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    float: none;
+    padding-top:50px;
+  }
+
+  .image-section-2{
+    max-width: 100%;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-section-2{
+    max-width: 100%;
+  }
+
+  .information-left{
+    width: 100%;
+  }
+
+  .information-container p{
+    font-size: 1.2em;
+  }
+
+  .information-container ul{
+    font-size: 1.2em;
+  }
+
+  .form-button{
+    width: 12%;
+  }
+
+  /* Contact Form */
+
+  .input-field{
+    width: 70%;
+  }
+
+  .input-field-message{
+    width: 70%;
+  }
+
+  .information-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information-left{
+    width: auto;
+    margin-bottom: 3rem;
+  }
+
+  .information-middle{
+    width: auto;
+    margin-bottom: 3rem;
+  }
+
+  .information-left p{
+    margin-left: 2rem;
+    margin-right: 2em;
+  }
+
+  .information-right{
+    width: auto;
+  }
+}
+
+@media (min-width:1920px){
+  .information-container{
+    margin-left: 2em;
+  }
+
+  .fishing{
+    min-height: 60vh;
+  }
+}
