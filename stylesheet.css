@@ -252,7 +252,7 @@
   }
 
   .title{
-    font-size: 25px;
+    font-size: 28px;
     color: #42b883;
   }
 
@@ -559,7 +559,12 @@
     max-width: 100%;
   }
 
+  .image-section-2 img{
+    max-width: 100%;
+  }
+
   .title{
+    font-size: 25px;
     display: flex;
     justify-content: center;
   }
