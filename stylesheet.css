@@ -125,6 +125,40 @@
     .card-section{
         display: flex;
         justify-content: center;
+        background-color: #121212;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        height: 30em;
+        width: 30em;
+        background: white;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    .card-image {
+        background-color: #1DA1F2;
+        height: 15em;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .card-1{
+        background-image: url(Photos/Landscaping1.jpeg);
+    }
+
+    .card-button{
+        border-radius: 50px;
+        background-color: #1DA1F2;
+        padding: 0.4em;
+        color: white;
+        border: none;
+    }
+
+    .card h1, p, button{
+        text-align: center;
     }
 
     /* End of Card Section */
