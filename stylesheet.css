@@ -94,16 +94,6 @@
     color: #eee;
   }
 
-  section.fishing-2 {
-    background: #eee;
-  }
-
-  body.dark-theme > section.fishing-2{
-    background: #3A3B3C;
-  }
-
-
-
 
   /* End of NavBar */
 
@@ -131,6 +121,13 @@
   }
 
     /* End of Hero Image Section */
+
+    .card-section{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* End of Card Section */
 
   .about-us{
     height: 100%;
@@ -209,61 +206,6 @@
 
    /* End of Section Three */
 
-  /* Fishing Section 2 */
-
-  .fishing-2{
-    max-width: 100%;
-    min-height: 50vh;
-    background-color: #ddd;
-    padding-top: 40px;
-  }
-
-    .line{
-    width: 45%;
-    height: 5px;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #42b883;
-    border-color: #42b883;
-  }
-
-  .container-2{
-    max-width: 80%;
-    display: block;
-    margin:auto;
-  }
-
-  .image-section-2{
-    max-width: 40%;
-    float: left;
-  }
-
-  .image-section-2 img{
-    max-width: 80%;
-    height: auto;
-    float: left;
-    margin-bottom: 2em;
-  }
-
-  .text-section-2{
-    float: right;
-    max-width: 55%;
-  }
-
-  .title{
-    font-size: 28px;
-    color: #42b883;
-  }
-
-  .text-section-2 p{
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-    line-height: 1.5;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
   /* Example Photos Section */
 
   .example-photos-container{
@@ -277,6 +219,29 @@
     height: 20rem;
     padding: 5px;
 
+  }
+
+  /* Social Media Links */
+
+  .social-media-links{
+    background-image: url(Photos/Landscaping3.jpeg);
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .social-media-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Open Sans', 'Poppins', 'Work Sans', sans-serif;
   }
 
   /* Form  */
@@ -631,5 +596,10 @@
 
   .fishing{
     min-height: 60vh;
+  }
+
+  .example-photos-container{
+    margin-left: 20em;
+    margin-right: 20em;
   }
 }
