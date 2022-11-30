@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    font-family: 'Oswald';
     font-weight: bold;
   }
 
@@ -115,9 +115,7 @@
     height: 80vh;
     font-weight: bold;
     font-size: 5em;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Oswald';
   }
 
     /* End of Hero Image Section */
@@ -127,10 +125,11 @@
         justify-content: center;
         background-color: #121212;
         flex-wrap: wrap;
+        font-family: 'Oswald';
     }
 
     .card{
-        height: 30em;
+        height: 40em;
         width: 30em;
         background: white;
         margin: 10px;
@@ -139,7 +138,7 @@
 
     .card-image {
         background-color: #1DA1F2;
-        height: 15em;
+        height: 25em;
         margin-bottom: 15px;
         background-size: cover;
         border-radius: 15px 15px 0 0;
@@ -148,18 +147,24 @@
     .card-1{
         background-image: url(Photos/Landscaping1.jpeg);
     }
-
-    .card-button{
-        border-radius: 50px;
-        background-color: #1DA1F2;
-        padding: 0.4em;
-        color: white;
-        border: none;
+    
+    .card-2{
+        background-image: url(Photos/Lawn5.jpeg);
     }
 
-    .card h1, p, button{
+    .card-3{
+        background-image: url(Photos/Lawn5.jpeg);
+    }
+
+    .card-4{
+        background-image: url(Photos/Lawn5.jpeg);
+    }
+
+    .card h1, p{
         text-align: center;
     }
+
+
 
     /* End of Card Section */
 
