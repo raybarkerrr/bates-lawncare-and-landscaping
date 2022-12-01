@@ -98,13 +98,14 @@
   /* End of NavBar */
 
   .hero-image-container{
-    background-image: url(Photos/Lawn3.jpeg);
+    background-image: url(Photos/Landscaping2.jpeg);
     height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-bottom: 5em;
   }
 
   .inner-container h1{
@@ -116,14 +117,31 @@
     font-weight: bold;
     font-size: 5em;
     font-family: 'Oswald';
+    color: white;
   }
 
     /* End of Hero Image Section */
 
+    .card-title h1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Oswald';
+        font-size: 40px;
+        color: green;
+      }    
+
+      .card-title h3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+        padding-bottom: 40px;
+      }    
+
     .card-section{
         display: flex;
         justify-content: center;
-        background-color: #121212;
         flex-wrap: wrap;
         font-family: 'Oswald';
     }
@@ -134,6 +152,7 @@
         background: white;
         margin: 10px;
         border-radius: 15px;
+        box-shadow: 0px 0px 20px;
     }
 
     .card-image {
@@ -157,16 +176,55 @@
     }
 
     .card-4{
-        background-image: url(Photos/Lawn5.jpeg);
+        background-image: url(Photos/Lawn3.jpeg);
     }
 
     .card h1, p{
         text-align: center;
     }
 
-
-
     /* End of Card Section */
+
+    .card-section-2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-2{
+        background: white;
+        width: 270px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 16px;
+        box-shadow: 0px 0px 20px;
+
+    }
+
+    .card-image-2{
+        background-color: #1DA1F2;
+        height: 170px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    .card-1-2{
+        background-image: url(Photos/Landscaping1.jpeg);
+    }
+    
+    .card-2-2{
+        background-image: url(Photos/Lawn5.jpeg);
+    }
+
+    .card-3-2{
+        background-image: url(Photos/Lawn5.jpeg);
+    }
+
+    .card-4-2{
+        background-image: url(Photos/Lawn3.jpeg);
+    }
+
+    /* End of Card Section 2 */
 
   .about-us{
     height: 100%;
@@ -424,12 +482,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .image-title{
         font-size: 1em;
     }
+
+    /* Card Section */
+
+    .card-title{
+        font-size: 20px;
+      }    
 
     /* End of Hero Image Section */
 
