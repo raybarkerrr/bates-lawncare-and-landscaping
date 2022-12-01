@@ -191,36 +191,40 @@
         flex-wrap: wrap;
     }
 
-    .card-2{
+    .card-bottom{
         background: white;
-        width: 270px;
-        height: 400px;
+        width: 20em;
+        height: 25em;
         margin: 10px;
-        border-radius: 16px;
+        border-radius: 15px;
         box-shadow: 0px 0px 20px;
-
     }
 
-    .card-image-2{
-        background-color: #1DA1F2;
-        height: 170px;
+    .card-bottom h1, p{
+        text-align: center;
+    }
+
+    .card-image-bottom{
+        height: 16em;
         margin-bottom: 15px;
         background-size: cover;
+        border-radius: 15px;
+        border-radius: 15px 15px 0 0
     }
 
-    .card-1-2{
+    .card-1-bottom{
         background-image: url(Photos/Landscaping1.jpeg);
     }
     
-    .card-2-2{
+    .card-2-bottom{
         background-image: url(Photos/Lawn5.jpeg);
     }
 
-    .card-3-2{
+    .card-3-bottom{
         background-image: url(Photos/Lawn5.jpeg);
     }
 
-    .card-4-2{
+    .card-4-bottom{
         background-image: url(Photos/Lawn3.jpeg);
     }
 
@@ -259,65 +263,7 @@
   }
 
   /* End of About Us Section */
-
-  .information{
-    max-width: 100%;
-    min-height: 50vh;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-  }
-
-  .information-container{
-    display: flex;
-    text-align: center;
-    margin-top: 4em;
-    margin-bottom: 2em;
-  }
-
-  .information-container h1{
-    font-size: 2em;
-    color: #42b883;
-  }
-
-  .information-container p{
-    font-size: 1.5em;
-  }
-
-  .information-left{
-    float: left;
-    width: 33%;
-  }
-
-  .information-middle{
-    float: left;
-    width: 33%;
-  }
-
-  .information-right{
-    float: right;
-    width: 33%;
-  }
-
-  .information-right li{
-    font-size: 20px;
-  }
-
-   /* End of Section Three */
-
-  /* Example Photos Section */
-
-  .example-photos-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .example-photos-container img{
-    width: 20rem;
-    height: 20rem;
-    padding: 5px;
-
-  }
-
+ 
   /* Social Media Links */
 
   .social-media-links{
@@ -640,18 +586,6 @@
     max-width: 100%;
   }
 
-  .information-left{
-    width: 100%;
-  }
-
-  .information-container p{
-    font-size: 1.2em;
-  }
-
-  .information-container ul{
-    font-size: 1.2em;
-  }
-
   .form-button{
     width: 12%;
   }
@@ -665,43 +599,11 @@
   .input-field-message{
     width: 70%;
   }
-
-  .information-container{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .information-left{
-    width: auto;
-    margin-bottom: 3rem;
-  }
-
-  .information-middle{
-    width: auto;
-    margin-bottom: 3rem;
-  }
-
-  .information-left p{
-    margin-left: 2rem;
-    margin-right: 2em;
-  }
-
-  .information-right{
-    width: auto;
-  }
 }
 
 @media (min-width:1920px){
-  .information-container{
-    margin-left: 2em;
-  }
 
   .fishing{
     min-height: 60vh;
-  }
-
-  .example-photos-container{
-    margin-left: 20em;
-    margin-right: 20em;
   }
 }
