@@ -13,6 +13,7 @@
     scroll-behavior: smooth;
     color: #222;
     background: #fff;
+    font-family: 'Oswald';
   }
 
   a {
@@ -172,14 +173,14 @@
     }
 
     .card-3{
-        background-image: url(Photos/Lawn5.jpeg);
+        background-image: url(Photos/Irrigation.jpg);
     }
 
     .card-4{
         background-image: url(Photos/Lawn3.jpeg);
     }
 
-    .card h1, p{
+    .card h1, .card p{
         text-align: center;
     }
 
@@ -189,26 +190,26 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        font-family: 'Oswald';
     }
 
     .card-bottom{
         background: white;
         width: 20em;
-        height: 25em;
+        height: 30em;
         margin: 10px;
         border-radius: 15px;
         box-shadow: 0px 0px 20px;
     }
 
-    .card-bottom h1, p{
+    .card-bottom h1, .card-bottom p{
         text-align: center;
     }
 
     .card-image-bottom{
-        height: 16em;
+        height: 15em;
         margin-bottom: 15px;
         background-size: cover;
-        border-radius: 15px;
         border-radius: 15px 15px 0 0
     }
 
@@ -230,63 +231,17 @@
 
     /* End of Card Section 2 */
 
-  .about-us{
-    height: 100%;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-  }
+    .info-section{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
 
-  .about-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-container h1{
-    font-size: 50px;
-    font-family: 'Open Sans', sans-serif, 'Poppins', 'Work Sans';
-    font-weight: bold;
-  }
-
-  .about-container p{
-    margin-left: 1em;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-    font-size: 30px;
-  }
-
-  .about-us-photo img{
-    height: auto;
-    max-width: 50%;
-    object-fit: cover;
-  }
-
-  /* End of About Us Section */
- 
-  /* Social Media Links */
-
-  .social-media-links{
-    background-image: url(Photos/Landscaping3.jpeg);
-    height: 100%;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-  .social-media-container{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    font-weight: bold;
-    font-size: 5em;
-    font-family: 'Open Sans', 'Poppins', 'Work Sans', sans-serif;
-  }
-
+    .info-title{
+      display: flex;
+      justify-content: center;
+      font-size: 45px;
+    }
+    
   /* Form  */
 
     .contact-us{
@@ -434,128 +389,27 @@
         font-size: 1em;
     }
 
-    /* Card Section */
+    /* End of Hero Image */
 
     .card-title{
         font-size: 20px;
-      }    
+      }
 
-    /* End of Hero Image Section */
+    /* End of Card Section */
 
-    .about-us{
-      padding-left: 50px;
-      padding-right: 50px;
+    .card-bottom{
+        width: 30em;
+        height: 40em;
     }
 
-    .about-container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    .card-image-bottom{
+        height: 25em;
     }
 
-    .about-container p{
-      margin-top: 1em;
-      font-size: 1.4rem;
-      margin-left: 2px;
-    }
-
-    .about-us-photo img{
-      max-width: 100%;
-    }
-
-
-
-    /* End of About Container */
-
-    .sect-three-container{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sect-three-container{
-        margin-right: 4em;
-    }
-
-    .sect-three-text h1 {
-        font-size: 30px;
-    }
-
-    .sect-three-text p {
-      padding-top: 10px;
-      padding-bottom: 20px;
-      margin-right: 1em;
-  }
-
-    .sect-three-img img{
-        height: 15em;
-        margin-right: 1em;
-
-    }
-
-    .line{
-      width: 80%;
-      height: 5px;
-      margin-left: 2em;
-      border-radius: 50px;
-      background-color: red;
-    }
-
-    /* End of Section Three */
-
-
-    .row{
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 35px;
-    }
-
-
-    .row img {
-      width: 100%;
-      height: auto;
-    }
-
-    /* Fishing 2 */
-
-
-
+    /* End of Card Section 2 */
 
   /* Last Section */
 
-  .container{
-    width: 80%;
-    display: block;
-    margin:auto;
-    padding-top:50px;
-  }
-
-  .content-section{
-    float:none;
-    width:100%;
-    display: block;
-    margin:auto;
-  }
-
-  .image-section{
-    float:none;
-    width:100%;
-  }
-
-  .image-section img{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin:auto;
-  }
-
-  .content-section .title{
-    text-align: center;
-    font-size: 19px;
-  }
 
   /* laster */
 
