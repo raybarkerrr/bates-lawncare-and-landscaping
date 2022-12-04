@@ -297,8 +297,8 @@
 
   .form-button{
     height: auto;
-    width: 3.3%;
-    border-radius: 50px;
+    width: 5em;
+    border-radius: 5em;
     background-color: #379956;
     padding: 0.4em;
     color: white;
@@ -478,7 +478,7 @@
 
 
   .form-button{
-    width: 12%;
+    width: 5em;
   }
 
   /* Contact Form */
