@@ -279,16 +279,27 @@
     display: flex;
     justify-content: center;
     font-size: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 20px;
     color: #379956;
+  }
+
+  .facebook-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+  }
+
+  .fa-brands{
+    color: #4267B2;
   }
 
   .owner-number{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
     padding-bottom: 20px;
-    color: #379956;
+    color: #black;
   }
 
   textarea{
