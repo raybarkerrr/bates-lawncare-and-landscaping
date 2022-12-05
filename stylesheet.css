@@ -182,7 +182,7 @@
     }
 
     .card-4{
-        background-image: url(Photos/Lawn3.jpeg);
+        background-image: url(Photos/PowerWasher.jpeg);
     }
 
     .card h1, .card p{
@@ -226,19 +226,19 @@
     }
 
     .card-1-bottom{
-        background-image: url(Photos/Landscaping1.jpeg);
+        background-image: url(Photos/Sod.jpeg);
     }
     
     .card-2-bottom{
-        background-image: url(Photos/Lawn5.jpeg);
+        background-image: url(Photos/Flowerbed.jpeg);
     }
 
     .card-3-bottom{
-        background-image: url(Photos/Lawn5.jpeg);
+        background-image: url(Photos/Tree.webp);
     }
 
     .card-4-bottom{
-        background-image: url(Photos/Lawn3.jpeg);
+        background-image: url(Photos/Drainage.jpeg);
     }
 
     /* End of Card Section 2 */
@@ -299,7 +299,7 @@
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 20px;
-    color: #black;
+    color: black;
   }
 
   textarea{
