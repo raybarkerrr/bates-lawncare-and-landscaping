@@ -187,6 +187,17 @@
 
     .card h1, .card p{
         text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .card h1{
+      font-size: 35px;
+    }
+
+    .card p{
+      padding-top: 10px;
+      font-size: 17px;
     }
 
     /* End of Card Section */
@@ -211,11 +222,15 @@
     .card-bottom h1{
         text-align: center;
         color: #379956;
+        padding-bottom: 5px;
+        font-size: 30px;
     }
 
     .card-bottom p{
       text-align: center;
       color: black;
+      padding-left: 25px;
+      padding-right: 25px;
     }
 
     .card-image-bottom{
@@ -467,7 +482,7 @@
     .info-title{
       display: flex;
       justify-content: center;
-      font-size: 28px;
+      font-size: 25px;
     }
 
     .info-container h2{
